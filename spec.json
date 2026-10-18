@@ -1,0 +1,50 @@
+{
+    "name":  "invoice-scan",
+    "logo":  "🧾",
+    "exe":  "InvoiceScan.exe",
+    "desc":  "Free, open-source invoice and receipt scanner for Windows — fields to CSV locally, batch folders, no SaaS. 100 MB portable, MIT.",
+    "topics":  [
+                   "invoice-scanner",
+                   "receipt-ocr",
+                   "expense-tracking",
+                   "data-extraction",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "csv-export",
+                   "bookkeeping",
+                   "batch-processing",
+                   "field-extraction",
+                   "offline",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Field extraction** — vendor, date, total, tax and currency pulled from photos and PDFs locally",
+                     "✅ **Line items table** — invoice rows captured as separate line entries, not lost in a flat summary",
+                     "✅ **Reconciliation check** — totals verified against line items and tax math, mismatches flagged",
+                     "✅ **Batch folders** — a quarter of receipts processed into one CSV or Excel sheet",
+                     "✅ **Duplicate detection** — the same invoice scanned twice gets flagged instead of paid twice",
+                     "✅ **Column mapping** — output fields renamed and ordered to match your bookkeeping import",
+                     "✅ **100 MB self-contained exe** — runtime and OCR engines bundled, portable, offline, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **invoice-scan** | Dext | Manual entry | Cloud OCR APIs |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Paid per month | Your evenings | Paid per page |",
+                    "| Open source | **Yes** | No | N/A | No",
+                    "| Documents stay local | **Yes** | Upload | Yes | Upload",
+                    "| Line item extraction | **Yes** | Yes | Manual | Partial",
+                    "| Reconciliation flags | **Yes** | Partial | Calculator | No",
+                    "| Portable, no install | **Yes, 100 MB** | Cloud | N/A | Cloud"
+                ],
+    "faqQ":  "scan invoices and receipts to Excel on Windows without a subscription?",
+    "faqA":  "Bookkeeping SaaS charges monthly and keeps copies of every invoice, and typing a year of receipts by hand is nobody\u0027s plan. invoice-scan extracts fields and line items locally, checks the math and exports your column layout. It is a 100 MB portable exe, MIT, offline.",
+    "s1":  "Dark bookkeeping view (#121418, emerald #047857): receipt image left with extracted fields highlighted, results table right with vendor, date and total columns, confidence badges.",
+    "s2":  "Reconciliation panel: total mismatch flagged in red between lines sum and printed total, diff chip reading 12.40, open source image action lit.",
+    "s3":  "Batch results: 240 receipts with per-file status, two duplicates flagged, column mapping strip at bottom showing export order, CSV button armed."
+}
